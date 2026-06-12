@@ -3,51 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto Agrinho - Inovação no Campo</title>
+    <title>Projeto Agrinho - Sustentabilidade</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <header>
-        <div class="container">
-            <h1>Agrinho <span>Sustentável</span></h1>
-            <nav>
-                <ul>
-                    <li><a href="#sobre">Sobre</a></li>
-                    <li><a href="#tecnologia">Tecnologia</a></li>
-                    <li><a href="#dicas">Dicas</a></li>
-                </ul>
-            </nav>
-        </div>
+        <h1>Projeto Agrinho</h1>
+        <p>Cultivando o Saber, Colhendo Cidadania</p>
     </header>
 
-    <section id="hero">
-        <div class="hero-content">
-            <h2>Inovação e Sustentabilidade no Campo</h2>
-            <p>Descubra como a tecnologia está transformando a agricultura e protegendo o nosso planeta.</p>
-        </div>
-    </section>
+    <main class="container">
+        <section class="card animate">
+            <h2>O que é o Agrinho?</h2>
+            <p>O Agrinho é um programa educativo que leva a discussão sobre sustentabilidade, saúde, segurança e ética para as escolas, conectando o campo e a cidade.</p>
+        </section>
 
-    <section id="tecnologia" class="container section-padding">
-        <h2>A Tecnologia a Favor da Natureza</h2>
-        <p>Hoje, o uso de drones, sensores de solo e inteligência artificial ajuda o agricultor a economizar água, reduzir o uso de pesticidas e produzir alimentos de forma muito mais eficiente e limpa.</p>
-    </section>
+        <section class="card animate">
+            <h2>Pilares do Projeto</h2>
+            <ul>
+                <li><strong>Sustentabilidade:</strong> Cuidar da terra, da água e das florestas.</li>
+                <li><strong>Inovação no Campo:</strong> Tecnologia aliada à preservação ambiental.</li>
+                <li><strong>Cidadania:</strong> Formar jovens conscientes de seu papel na sociedade.</li>
+            </ul>
+        </section>
 
-    <section id="dicas">
-        <div class="container card">
-            <h2>Gerador de Ideias Sustentáveis</h2>
-            <p>Clique no botão abaixo para receber uma dica de como ajudar o meio ambiente no dia a dia do campo ou da cidade!</p>
-            
-            <button id="btn-dica">Quero uma dica!</button>
-            
-            <p id="texto-dica" class="dica-oculta">Clique no botão acima...</p>
-        </div>
-    </section>
+        <section class="card acao">
+            <h2>Faça sua Parte!</h2>
+            <p>Pequenas ações geram grandes colheitas. Economize água, recicle seu lixo e valorize o trabalho do produtor rural.</p>
+            <button onclick="mensagem()">Saber Mais</button>
+        </section>
+    </main>
 
     <footer>
-        <p>&copy; 2026 Projeto Agrinho - Criado com VS Code</p>
+        <p>&copy; 2026 Desenvolvido para o Projeto Agrinho</p>
     </footer>
 
-    <script src="script.js"></script>
+    <script>
+        function mensagem() {
+            alert("Obrigado por apoiar a sustentabilidade! Vamos juntos mudar o futuro.");
+        }
+    </script>
 </body>
 </html>
